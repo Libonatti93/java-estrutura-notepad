@@ -1,0 +1,27 @@
+Code Explanation
+Main Structure: The SimpleNotepad class extends JFrame and implements ActionListener to handle menu events.
+
+Main Components:
+
+JTextArea: Text area where the user can type.
+JFileChooser: Used to select files when opening or saving.
+Menus:
+
+New: Clears the text area to start a new document.
+Open: Opens an existing text file and loads its contents into the text area.
+Save: Saves the current file if it is already named; otherwise, calls "Save As".
+Save As: Saves the file with a new name.
+Exit: Closes the notepad with a confirmation to save unsaved changes.
+Program Execution: The main method initializes and displays the notepad.
+
+
+
+Notepad Structure
+The project will have a graphical interface with the following functionalities:
+
+New File: Creates a new document.
+Open File: Opens an existing document.
+Save: Saves the current document.
+Save As: Saves the document with a new name.
+Exit: Closes the program.
+
